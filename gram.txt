@@ -1,0 +1,28 @@
+CARACTERES
+
+digito = NUMERO
+
+letras = ALFABETO
+positivo = +
+
+negativo = -
+
+entre = /
+
+multi = *
+
+parAbre = (
+parCierra = )
+TOKENS
+
+MAS = positivo ,
+
+MENOS = negativo ,
+POR = multi ,
+DIV = entre ,
+LPAR = parAbre ,
+RPAR = parCierra ,
+NUM = digito digito* ,
+
+FINDEGRAMATICA
+
